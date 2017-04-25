@@ -1,0 +1,510 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2AF480711EAFA1910098E93C /* eurosportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF480701EAFA1910098E93C /* eurosportTests.swift */; };
+		2AF4807C1EAFA1910098E93C /* eurosportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF4807B1EAFA1910098E93C /* eurosportUITests.swift */; };
+		2AF4808D1EAFA1A90098E93C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF480891EAFA1A90098E93C /* AppDelegate.swift */; };
+		2AF4808E1EAFA1A90098E93C /* eurosport.tvml in Resources */ = {isa = PBXBuildFile; fileRef = 2AF4808A1EAFA1A90098E93C /* eurosport.tvml */; };
+		2AF4808F1EAFA1A90098E93C /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 2AF4808B1EAFA1A90098E93C /* main.js */; };
+		2AF480901EAFA1A90098E93C /* ResourceLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AF4808C1EAFA1A90098E93C /* ResourceLoader.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2AF4806D1EAFA1910098E93C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AF480561EAFA1900098E93C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AF4805D1EAFA1900098E93C;
+			remoteInfo = eurosport;
+		};
+		2AF480781EAFA1910098E93C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2AF480561EAFA1900098E93C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2AF4805D1EAFA1900098E93C;
+			remoteInfo = eurosport;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2AF4805E1EAFA1900098E93C /* eurosport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eurosport.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF480671EAFA1900098E93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF4806C1EAFA1910098E93C /* eurosportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eurosportTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF480701EAFA1910098E93C /* eurosportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eurosportTests.swift; sourceTree = "<group>"; };
+		2AF480721EAFA1910098E93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF480771EAFA1910098E93C /* eurosportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = eurosportUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AF4807B1EAFA1910098E93C /* eurosportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eurosportUITests.swift; sourceTree = "<group>"; };
+		2AF4807D1EAFA1910098E93C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AF480891EAFA1A90098E93C /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2AF4808A1EAFA1A90098E93C /* eurosport.tvml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = eurosport.tvml; sourceTree = "<group>"; };
+		2AF4808B1EAFA1A90098E93C /* main.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
+		2AF4808C1EAFA1A90098E93C /* ResourceLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceLoader.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AF4805B1EAFA1900098E93C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF480691EAFA1910098E93C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF480741EAFA1910098E93C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2AF480551EAFA1900098E93C = {
+			isa = PBXGroup;
+			children = (
+				2AF480601EAFA1900098E93C /* eurosport */,
+				2AF4806F1EAFA1910098E93C /* eurosportTests */,
+				2AF4807A1EAFA1910098E93C /* eurosportUITests */,
+				2AF4805F1EAFA1900098E93C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2AF4805F1EAFA1900098E93C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AF4805E1EAFA1900098E93C /* eurosport.app */,
+				2AF4806C1EAFA1910098E93C /* eurosportTests.xctest */,
+				2AF480771EAFA1910098E93C /* eurosportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AF480601EAFA1900098E93C /* eurosport */ = {
+			isa = PBXGroup;
+			children = (
+				2AF480891EAFA1A90098E93C /* AppDelegate.swift */,
+				2AF4808A1EAFA1A90098E93C /* eurosport.tvml */,
+				2AF4808B1EAFA1A90098E93C /* main.js */,
+				2AF4808C1EAFA1A90098E93C /* ResourceLoader.swift */,
+				2AF480671EAFA1900098E93C /* Info.plist */,
+			);
+			path = eurosport;
+			sourceTree = "<group>";
+		};
+		2AF4806F1EAFA1910098E93C /* eurosportTests */ = {
+			isa = PBXGroup;
+			children = (
+				2AF480701EAFA1910098E93C /* eurosportTests.swift */,
+				2AF480721EAFA1910098E93C /* Info.plist */,
+			);
+			path = eurosportTests;
+			sourceTree = "<group>";
+		};
+		2AF4807A1EAFA1910098E93C /* eurosportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2AF4807B1EAFA1910098E93C /* eurosportUITests.swift */,
+				2AF4807D1EAFA1910098E93C /* Info.plist */,
+			);
+			path = eurosportUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AF4805D1EAFA1900098E93C /* eurosport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF480801EAFA1910098E93C /* Build configuration list for PBXNativeTarget "eurosport" */;
+			buildPhases = (
+				2AF4805A1EAFA1900098E93C /* Sources */,
+				2AF4805B1EAFA1900098E93C /* Frameworks */,
+				2AF4805C1EAFA1900098E93C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eurosport;
+			productName = eurosport;
+			productReference = 2AF4805E1EAFA1900098E93C /* eurosport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2AF4806B1EAFA1910098E93C /* eurosportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF480831EAFA1910098E93C /* Build configuration list for PBXNativeTarget "eurosportTests" */;
+			buildPhases = (
+				2AF480681EAFA1910098E93C /* Sources */,
+				2AF480691EAFA1910098E93C /* Frameworks */,
+				2AF4806A1EAFA1910098E93C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AF4806E1EAFA1910098E93C /* PBXTargetDependency */,
+			);
+			name = eurosportTests;
+			productName = eurosportTests;
+			productReference = 2AF4806C1EAFA1910098E93C /* eurosportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2AF480761EAFA1910098E93C /* eurosportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AF480861EAFA1910098E93C /* Build configuration list for PBXNativeTarget "eurosportUITests" */;
+			buildPhases = (
+				2AF480731EAFA1910098E93C /* Sources */,
+				2AF480741EAFA1910098E93C /* Frameworks */,
+				2AF480751EAFA1910098E93C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2AF480791EAFA1910098E93C /* PBXTargetDependency */,
+			);
+			name = eurosportUITests;
+			productName = eurosportUITests;
+			productReference = 2AF480771EAFA1910098E93C /* eurosportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AF480561EAFA1900098E93C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ddtest;
+				TargetAttributes = {
+					2AF4805D1EAFA1900098E93C = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					2AF4806B1EAFA1910098E93C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AF4805D1EAFA1900098E93C;
+					};
+					2AF480761EAFA1910098E93C = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2AF4805D1EAFA1900098E93C;
+					};
+				};
+			};
+			buildConfigurationList = 2AF480591EAFA1900098E93C /* Build configuration list for PBXProject "eurosport" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2AF480551EAFA1900098E93C;
+			productRefGroup = 2AF4805F1EAFA1900098E93C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AF4805D1EAFA1900098E93C /* eurosport */,
+				2AF4806B1EAFA1910098E93C /* eurosportTests */,
+				2AF480761EAFA1910098E93C /* eurosportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AF4805C1EAFA1900098E93C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF4808E1EAFA1A90098E93C /* eurosport.tvml in Resources */,
+				2AF4808F1EAFA1A90098E93C /* main.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF4806A1EAFA1910098E93C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF480751EAFA1910098E93C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AF4805A1EAFA1900098E93C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF480901EAFA1A90098E93C /* ResourceLoader.swift in Sources */,
+				2AF4808D1EAFA1A90098E93C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF480681EAFA1910098E93C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF480711EAFA1910098E93C /* eurosportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2AF480731EAFA1910098E93C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AF4807C1EAFA1910098E93C /* eurosportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2AF4806E1EAFA1910098E93C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AF4805D1EAFA1900098E93C /* eurosport */;
+			targetProxy = 2AF4806D1EAFA1910098E93C /* PBXContainerItemProxy */;
+		};
+		2AF480791EAFA1910098E93C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2AF4805D1EAFA1900098E93C /* eurosport */;
+			targetProxy = 2AF480781EAFA1910098E93C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2AF4807E1EAFA1910098E93C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+			};
+			name = Debug;
+		};
+		2AF4807F1EAFA1910098E93C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AF480811EAFA1910098E93C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = eurosport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.durul.eurosport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2AF480821EAFA1910098E93C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = eurosport/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.durul.eurosport;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2AF480841EAFA1910098E93C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = eurosportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.durul.eurosportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eurosport.app/eurosport";
+			};
+			name = Debug;
+		};
+		2AF480851EAFA1910098E93C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = eurosportTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.durul.eurosportTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/eurosport.app/eurosport";
+			};
+			name = Release;
+		};
+		2AF480871EAFA1910098E93C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = eurosportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.durul.eurosportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = eurosport;
+			};
+			name = Debug;
+		};
+		2AF480881EAFA1910098E93C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = eurosportUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.durul.eurosportUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = eurosport;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AF480591EAFA1900098E93C /* Build configuration list for PBXProject "eurosport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF4807E1EAFA1910098E93C /* Debug */,
+				2AF4807F1EAFA1910098E93C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AF480801EAFA1910098E93C /* Build configuration list for PBXNativeTarget "eurosport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF480811EAFA1910098E93C /* Debug */,
+				2AF480821EAFA1910098E93C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AF480831EAFA1910098E93C /* Build configuration list for PBXNativeTarget "eurosportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF480841EAFA1910098E93C /* Debug */,
+				2AF480851EAFA1910098E93C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2AF480861EAFA1910098E93C /* Build configuration list for PBXNativeTarget "eurosportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AF480871EAFA1910098E93C /* Debug */,
+				2AF480881EAFA1910098E93C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AF480561EAFA1900098E93C /* Project object */;
+}

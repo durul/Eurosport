@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<document>
+<alertTemplate style="background-color: rgba(15, 25, 35, 0.4);">
+    <title>EuroSport</title>
+    <button id="play">
+      <text>Play</text>
+    </button>
+  </alertTemplate>
+</document>
